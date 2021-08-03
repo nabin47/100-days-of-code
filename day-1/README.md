@@ -1,7 +1,8 @@
 # Day-1
 
-Day 1 work of "#100daysofcode".
-A newspaper mockup. Idea taken from *[Frontend Masters course](https://frontendmasters.com/courses/web-development-v2/)
+Day 1 work of "#100daysofcode"
+
+A newspaper mockup. Idea taken from [Frontend Masters course](https://frontendmasters.com/courses/web-development-v2/) Complete Intro to Web Development, v2
 
 ## Final output
 
