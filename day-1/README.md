@@ -1,6 +1,6 @@
 # Day-1
 
-Day 1 work of "#100daysofcode"
+Day 1 work of [#100daysofcode](https://twitter.com/hashtag/100DaysOfCode?src=hashtag_click)
 
 A newspaper mockup. Idea taken from [Frontend Masters course](https://frontendmasters.com/courses/web-development-v2/) Complete Intro to Web Development, v2
 
