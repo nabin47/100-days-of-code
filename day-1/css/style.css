@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-heading {
+    text-align: center;
+    font-weight: normal;
+    font-size: 60px;
+    font-family: 'MonteCarlo', cursive;
+    font-style: italic;
+    margin: 30px 0;
+    padding: 10px 0;
+}
+
+.story-heading {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.story {
+    border: 1px solid #999;
+}
+
+.quarter {
+    flex: 1;
+}
+
+.half {
+    flex: 2;
+}
+
+.story-text {
+    padding: 5px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.corgi-pic {
+    width: 100%;
+    padding: 2px;
+}
+
+.nav-list {
+    border: 1px solid #999;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 3;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    list-style: none;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #666;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.list-item:nth-child(1) {
+    background-color: #ffeaa7;
+}
+
+.list-item:nth-child(2) {
+    background-color: #81ecec;
+}
+
+.list-item:nth-child(3) {
+    background-color: #55efc4;
+}
+
+.list-item:nth-child(4) {
+    background-color: #74b9ff;
+}
+
+.list-item:nth-child(5) {
+    background-color: #a29bfe;
+}
