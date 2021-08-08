@@ -13,7 +13,7 @@ body {
     border: 2px solid #000;
     margin: 0 30%;
     height: 100%;
-    width: 50%;
+    width: 400px;
     background-color: #000;
 }
 
@@ -47,21 +47,36 @@ body {
     height: 100px;
     width: 24.5%;
     font-size: 40px;
-    font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 20px 5px;
     cursor: pointer;
 }
 
+.calc-button:hover {
+    background-color: rgba(212, 210, 210, 0.993);
+}
+
+.calc-button:active {
+    background-color: rgba(212, 210, 210, 0.808);
+}
+
 .calc-button.operator {
     /* inherits from .calc-button */
-    background-color: #df974c;
-    color: rgba(255, 255, 255, 0.897);
+    background-color: #df984cf1;
+    color: rgb(255, 255, 255);
+}
+
+.calc-button.operator:hover {
+    background-color: #e29a4d;
+}
+
+.calc-button.operator:active {
+    background-color: #df984ce8;
 }
 
 .calc-button.double {
-    width: 50%;
+    width: 49.7%;
 }
 
 .calc-button.triple {
