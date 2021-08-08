@@ -5,11 +5,8 @@ Day (2-5) work of [#100daysofcode](https://twitter.com/hashtag/100DaysOfCode?src
 IOS inspired simple calculator. 
 
 ## Final Output
-<<<<<<< HEAD
-![Working Calculator!](./img/calculator.jpg "IOS inspired Calculator")
-=======
-![Working Calculator!](./img/calculator.png "IOS inspired Calculator")
->>>>>>> 83bd3538b1c6593f40d5ed23bf21565c77e17e40
+![Working Calculator!](./img/calculator.png "Calculator")
+>>>>>>> a1bb3d2442c42dbf64f6a350007cb3e09cfc2f31
 
 ## References
 - [Frontend Masters course](https://frontendmasters.com/courses/web-development-v2/) Complete Intro to Web Development, v2
