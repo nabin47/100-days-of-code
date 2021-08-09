@@ -7,7 +7,7 @@ So, what are you waiting for?
 Fetch some **[Doggos](https://nabin47.github.io/100-days-of-code/get-doggos/index.html)** now!
 
 ## Final Output
-![Landing page!](./img/before-fetch.jpg "Landing page")
+<img src="./img/before-fetch.jpg" alt="Landing page" width="714px" height="366px"/>
 ![After fetch!](./img/after-fetch.jpg "Adorable dogs")
 
 ## References
