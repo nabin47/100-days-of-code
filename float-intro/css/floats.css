@@ -41,3 +41,31 @@ div img {
 @media only screen and (min-width: 768px) {
 
 }
+
+.row1 {
+    display: inline-block;
+    float: left;
+    width: 24.5%;
+}
+
+.row2 {
+    object-position: center;
+    width: 100%;
+}
+
+.row3 {
+    float: left;
+}
+
+.row3.narrow {
+    width: 24.5%;
+}
+
+.row3.wide {
+    float: right;
+    width: 74.5%;
+}
+
+.row4 {
+    float: none;
+}
