@@ -1,71 +1,80 @@
 /* Border box declaration 
 https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html {
-  box-sizing: border-box;
-}
-/* inherit border-box on all elements in the universe and before and after
- */
-*, 
-*:before, 
-*:after {
-  box-sizing: inherit;
-}
+    box-sizing: border-box;
+  }
+  /* inherit border-box on all elements in the universe and before and after
+   */
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+      font-family: Arial, Geneva, sans-serif;
+  }
+  a {
+      color: #2772B0;
+  }
+  .wrapper {
+      width: 97%;
+      max-width: 1200px;
+      margin: 0 auto;
+      float: none;
+      background-color: #fff;
+  }
+  
+  div img {
+      width: 100%;
+      max-width: 225px; 
+  }
+  
+  /* grid system -- mobile first! */
 
-body {
-	font-family: Arial, Geneva, sans-serif;
-}
-a {
-	color: #2772B0;
-}
-.wrapper {
-	width: 97%;
-	max-width: 1200px;
-	margin: 0 auto;
-	float: none;
-	background-color: #fff;
-}
+  .row1 {
+      float: left;
+      margin-left: 4%;
+      width: 20%;
+      height: 350px;
+      background-color: cadetblue;
+  }
 
-div img {
-	width: 100%;
-	max-width: 225px; 
-}
+  .row2 {
+      float: left;
+      background-color: chartreuse;
+      margin-left: 4%;
+      width: 44%;
+  }
 
-/* grid system -- mobile first! */
+  .row3 {
+      background-color: crimson;
+      float: left;
+      margin-left: 4%;
+      height: 350px;
+  }
 
+  .row3.narrow {
+      width: 24%;
+  }
 
-/* Mobile Landscape Screen Sizes */
-@media only screen and (min-width: 480px)  {
+  .row3.wide {
+      width: 64%;
+  }
 
-}
-/* Desktop screen Sizes */
-@media only screen and (min-width: 768px) {
-
-}
-
-.row1 {
-    display: inline-block;
-    float: left;
-    width: 24.5%;
-}
-
-.row2 {
-    object-position: center;
-    width: 100%;
-}
-
-.row3 {
-    float: left;
-}
-
-.row3.narrow {
-    width: 24.5%;
-}
-
-.row3.wide {
-    float: right;
-    width: 74.5%;
-}
-
-.row4 {
-    float: none;
-}
+  .row4 {
+      float: left;
+      margin-left: 4%;
+      width: 92%;
+      background-color: cyan;
+  }
+  
+  
+  /* Mobile Landscape Screen Sizes */
+  @media only screen and (min-width: 480px)  {
+  
+  }
+  /* Desktop screen Sizes */
+  @media only screen and (min-width: 768px) {
+  
+  }
