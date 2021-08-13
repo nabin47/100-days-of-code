@@ -27,54 +27,66 @@ html {
   
   div img {
       width: 100%;
-      max-width: 225px; 
+      max-width: 250px; 
   }
   
   /* grid system -- mobile first! */
+  .line::after {
+    content:"";
+    display: table;
+    clear:both;
+  } 
 
-  .row1 {
-      float: left;
+  [class *= 'row'] {
       margin-left: 4%;
-      width: 20%;
-      height: 350px;
-      background-color: cadetblue;
+      width: 92%;
+      background-color: lightpink;
   }
 
   .row2 {
-      float: left;
-      background-color: chartreuse;
-      margin-left: 4%;
-      width: 44%;
+      background-color: rgb(238, 182, 255);
   }
 
   .row3 {
-      background-color: crimson;
-      float: left;
-      margin-left: 4%;
-      height: 350px;
-  }
-
-  .row3.narrow {
-      width: 24%;
-  }
-
-  .row3.wide {
-      width: 64%;
+      background-color: rgb(182, 193, 255);
   }
 
   .row4 {
-      float: left;
-      margin-left: 4%;
-      width: 92%;
-      background-color: cyan;
+      background-color: rgb(182, 255, 219);
   }
-  
-  
+
+
   /* Mobile Landscape Screen Sizes */
-  @media only screen and (min-width: 480px)  {
-  
+  @media only screen and (min-width: 584px)  {
+    [class *= 'row'] {
+        float: left;
+        margin-left: 4%;
+        min-height: 1px;
+    }
+
+    .row1 {
+        width: 44%;
+    }
+
+    .row2, .row3, .row4 {
+        width: 92%;
+    }
   }
   /* Desktop screen Sizes */
   @media only screen and (min-width: 768px) {
-  
+    .row1, .narrow {
+        width: 20%;
+    }
+
+    .row2 {
+        width: 44%;      
+    }
+
+    .wide {   
+        width: 68%;
+    }
+
+    .row4 {
+        width: 92%;
+    }
   }
