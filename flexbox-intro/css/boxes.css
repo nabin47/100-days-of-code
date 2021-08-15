@@ -20,5 +20,5 @@ li {
 .flex2 {
     border: 5px dashed blue;
     order: 2;
-    flex-basis: 25%; /* sould be used in flex items instead of width property */
+    flex: 0 1 25%; /* never use width property on flex item, use flex-basis */
 }
